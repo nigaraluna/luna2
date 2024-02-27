@@ -1,0 +1,84 @@
+header{
+    background-color: bisque;
+    padding: 25px;
+    border: 2px solid red;
+}
+
+header div:first-child span a {
+    font-size: 30px;
+    font-weight: bold;
+    color: chocolate;
+    text-decoration: none;
+}
+header>div:nth-child(2) span:first-child a{
+    color: brown;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div:nth-child(2) span:nth-child(2) a{
+    color: darkkhaki;
+    font-size: 45px;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 30px;
+
+}
+
+header div:nth-child(3) span a{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(181, 207, 93);
+    text-decoration: none;
+    margin: 35px 0px 40px;
+}
+
+main{
+    background-color: rgb(127, 195, 149);
+    padding: 30px;
+    margin-top: 30px;
+}
+main div:first-child p{
+    font-size: 30px;
+    color: grey;
+}
+
+main div:nth-child(2) p:first-child{
+    color: rgb(234, 176, 27);
+    background-color: rgb(201, 214, 227);
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(203, 157, 58);
+}
+
+main div:nth-child(2) p:nth-child(2){
+    color: rgb(105, 93, 212);
+    background-color: rgb(208, 171, 216);
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 30px;
+    border: 2px solid rgb(69, 8, 8);
+
+}
+
+footer{
+    background-color: rgb(185, 149, 191);
+    padding: 50px;
+    margin-top: 30px;
+    border: 2px solid rgb(180, 69, 69);
+}
+footer div {
+    margin: auto;
+    background-color: rgb(209, 121, 188);
+    width: 400px;
+    padding: 25px;
+}
+footer span {
+    margin-left: 40px;
+    font-weight: 500;
+}
+footer span:nth-child(4){
+    color: bisque;
+    font-size: 25px;
+}
